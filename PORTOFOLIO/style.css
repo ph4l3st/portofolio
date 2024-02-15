@@ -1,0 +1,53 @@
+
+body{
+    background-image: url(img/download\ \(7\).jpeg);
+    background-size: cover;
+}
+.judul {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);    
+
+}
+h1 {
+    color:rgb(0, 43, 107);
+    font-size: 75px;
+    margin: 10px 0px 10px;
+}
+h4 {
+    color: aliceblue;
+
+}
+
+h3 {
+    color: rgb(0, 128, 240);
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+text {
+    font-size: 75px !important;
+}
+.news form{width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #001db0;
+    outline: none;
+    border-radius: 30px;
+}
+.news form input:last-child{
+    position:absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #001db0;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+
+}
